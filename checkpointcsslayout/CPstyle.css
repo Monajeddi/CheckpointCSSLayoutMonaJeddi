@@ -1,0 +1,377 @@
+body{
+    margin: 0 200px;
+    font-family: roboto ;
+}
+.logo-docplanner {
+    width: 300px;
+}
+
+nav{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: fixed;
+   background-color: white;
+   width: 995px;
+
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+.dropbtn {
+    background-color:transparent;
+    color: black;
+    font-size: 16px;
+    border: none;
+  }
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+#logo{
+    margin-top: 100px;
+  width: 50px;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  margin-left: 450px;
+}
+#titre-1{
+    text-align: center;
+    color: #00b39b;
+    font-weight: lighter;
+    
+
+    
+}
+
+#mini_logo{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.col-p{
+    display: inline-flex;
+    justify-content: space-between;
+    color: gray;
+    font-weight: lighter;
+    line-height: 30px;
+    
+}
+
+.grille{
+    
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.patient{
+    background-color:#63cdb2;
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    width:350px;
+    border-radius: 15px;  
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+.doctor{
+    background-color: #3d83df;
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    width:350px;
+    height: 300px;
+    border-radius: 15px;  
+    margin-right: 20px;
+    margin-top: 45px;
+
+    
+}
+
+.clinic{
+    background-color: #1b2734;
+    color: white;
+    font-size: smaller;
+    
+    width:350px ;
+    height: 300px;
+    border-radius: 15px;  
+    margin-top: 45px;
+
+    
+}
+
+#countrybox {
+
+    display: flex;
+    align-items : flex-end;
+    background-color: transparent;
+    color: white;
+    border:transparent;
+    font-size: larger;
+    text-decoration: underline;
+    margin-left: 20px;
+
+}
+
+
+
+
+h1{
+    font-weight: lighter;
+    padding-left: 25px;
+    
+}
+
+h2{
+    font-weight: lighter;
+    margin-right: 20px;
+    margin-left: 25px;
+    
+}
+#title-2{
+    color:#00b39b ;
+    margin-top: 25px;
+    width: 350px;
+}
+
+.col-4{
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.logos{
+    
+    display: inline-flex;
+    margin-top: 25px;
+    flex-flow: row wrap;
+    margin-left: 50px;
+    justify-content: space-between;
+    fill:grey;
+    list-style: none;
+    
+    
+}
+
+.brands__logos{
+    fill: grey;
+ } 
+
+
+.card-box{
+    background-color: #daf7f7;
+    display: flex;
+    display: inline-flex;
+    width: 990px;
+}
+
+.box-1{
+    width: 300px;
+}
+#title-cardbox{
+    color:#00b39b;
+    font-size:x-large;
+}
+
+#logo-box{
+    font-size: small;
+    
+    margin-right: 50px;
+}
+
+.card-bloc{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 30px;
+    margin-left: 250px;
+
+}
+.card{
+    background-color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    width:200px;
+    height: 230px;
+    border-radius: 5px;  
+    margin-right: 20px;
+    margin-top: 45px;
+}
+
+#logo-card{
+    margin-left: 80px;
+    margin-top: 45px;
+}
+
+#title-card{
+    font-size:large;
+    color: #63cdb2;
+}
+
+.p-card{
+    color: grey;
+    margin-left: 30px;
+    font-size: smaller;
+}
+
+#text-card{
+    color: grey;
+    text-align: center;
+}
+
+
+
+.office{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 320px;
+}
+
+.office__desc{
+    justify-content: space-around;
+}
+
+.office__image{
+    width: 50px;
+}
+
+#para{
+    color: grey;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+h3{ 
+    text-align: center;
+    font-size :35px;;
+    font-weight: lighter;
+
+
+}
+
+.office{
+    
+    size: 70px;
+}
+
+
+
+.country-box{
+    
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    
+}
+
+.country{
+    color: grey;
+    width:300px;
+    height: 350px;
+    border-radius: 10px;  
+    margin: 20px 0;
+    border: 1px solid rgb(238, 242, 242);
+    
+
+    
+}
+
+.office__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+    width: 300px;
+}
+
+#picture{
+    
+    height:270px;
+    width: 300px;
+   
+    
+    
+}
+
+.country-name{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+    width: 300px;
+    
+   
+
+}
+
+ 
+
+.button{
+    font-size: 15px;
+    border-radius: 5px;
+    background-color:#3d83df;
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+
+
+
+.bttn{
+    height: 40px;
+    margin-left: 350px;
+    border-radius: 5px;
+    background-color:#3d83df;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+.footer{
+    text-align: center;
+    color: grey;
+    font-size: smaller;
+    margin-top: 50px;
+}
